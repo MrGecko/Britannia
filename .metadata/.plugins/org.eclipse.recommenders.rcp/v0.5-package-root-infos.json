@@ -20,9 +20,9 @@
       "micro": 0,
       "qualifier": ""
     },
-    "jarFileFingerprint": "8c4128e25388c16ad4408da322b71f5b2595faa3",
-    "jarFileModificationDate": "2011-06-29T08:14:46+02:00",
-    "location": "/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Home/lib/ext/localedata.jar",
+    "jarFileFingerprint": "1ff2501cc1550270367475e5fad6a7d2ae3dc576",
+    "jarFileModificationDate": "2011-06-29T08:10:59+02:00",
+    "location": "/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Home/lib/ext/sunpkcs11.jar",
     "javaRuntime": true
   },
   {
@@ -33,9 +33,9 @@
       "micro": 0,
       "qualifier": ""
     },
-    "jarFileFingerprint": "1ff2501cc1550270367475e5fad6a7d2ae3dc576",
-    "jarFileModificationDate": "2011-06-29T08:10:59+02:00",
-    "location": "/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Home/lib/ext/sunpkcs11.jar",
+    "jarFileFingerprint": "8c4128e25388c16ad4408da322b71f5b2595faa3",
+    "jarFileModificationDate": "2011-06-29T08:14:46+02:00",
+    "location": "/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Home/lib/ext/localedata.jar",
     "javaRuntime": true
   },
   {
@@ -52,19 +52,6 @@
     "javaRuntime": false
   },
   {
-    "symbolicName": "javax.validation.validation-api",
-    "version": {
-      "major": 1,
-      "minor": 0,
-      "micro": 0,
-      "qualifier": "GA"
-    },
-    "jarFileFingerprint": "b6bd7f9d78f6fdaa3c37dae18a4bd298915f328e",
-    "jarFileModificationDate": "2013-03-05T14:40:48+01:00",
-    "location": "/Applications/eclipse/plugins/com.google.gwt.eclipse.sdkbundle_2.5.1/gwt-2.5.1/validation-api-1.0.0.GA.jar",
-    "javaRuntime": false
-  },
-  {
     "symbolicName": "jre",
     "version": {
       "major": 1,
@@ -76,6 +63,19 @@
     "jarFileModificationDate": "2011-06-29T08:05:14+02:00",
     "location": "/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Home/lib/ext/sunjce_provider.jar",
     "javaRuntime": true
+  },
+  {
+    "symbolicName": "javax.validation.validation-api",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": "GA"
+    },
+    "jarFileFingerprint": "b6bd7f9d78f6fdaa3c37dae18a4bd298915f328e",
+    "jarFileModificationDate": "2013-03-05T14:40:48+01:00",
+    "location": "/Applications/eclipse/plugins/com.google.gwt.eclipse.sdkbundle_2.5.1/gwt-2.5.1/validation-api-1.0.0.GA.jar",
+    "javaRuntime": false
   },
   {
     "symbolicName": "jre",
@@ -104,19 +104,6 @@
     "javaRuntime": false
   },
   {
-    "symbolicName": "bodyeditor-loader-sources",
-    "version": {
-      "major": -1,
-      "minor": -1,
-      "micro": -1,
-      "qualifier": ""
-    },
-    "jarFileFingerprint": "d97f1cf45de312e6b0ebe3ca3ac323831facb97f",
-    "jarFileModificationDate": "2013-09-01T22:04:58+02:00",
-    "location": "/Users/Gecko/Documents/DevEclipse/workspace/Britannia/libs/bodyeditor-loader-sources.jar",
-    "javaRuntime": false
-  },
-  {
     "symbolicName": "gdx-backend-lwjgl",
     "version": {
       "major": -1,
@@ -127,6 +114,19 @@
     "jarFileFingerprint": "32dce7122f7f0417dd6e07532b1905927eacf43a",
     "jarFileModificationDate": "2013-09-01T22:04:58+02:00",
     "location": "/Users/Gecko/Documents/DevEclipse/workspace/Britannia-desktop/libs/gdx-backend-lwjgl.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "bodyeditor-loader-sources",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "d97f1cf45de312e6b0ebe3ca3ac323831facb97f",
+    "jarFileModificationDate": "2013-09-01T22:04:58+02:00",
+    "location": "/Users/Gecko/Documents/DevEclipse/workspace/Britannia/libs/bodyeditor-loader-sources.jar",
     "javaRuntime": false
   },
   {
@@ -143,19 +143,6 @@
     "javaRuntime": true
   },
   {
-    "symbolicName": "gdx-backend-gwt",
-    "version": {
-      "major": -1,
-      "minor": -1,
-      "micro": -1,
-      "qualifier": ""
-    },
-    "jarFileFingerprint": "85283b0c463bae84d1edf6d454718473df70ac2e",
-    "jarFileModificationDate": "2013-09-01T22:04:57+02:00",
-    "location": "/Users/Gecko/Documents/DevEclipse/workspace/Britannia-html/war/WEB-INF/lib/gdx-backend-gwt.jar",
-    "javaRuntime": false
-  },
-  {
     "symbolicName": "jre",
     "version": {
       "major": 1,
@@ -167,6 +154,19 @@
     "jarFileModificationDate": "2011-05-25T22:22:37+02:00",
     "location": "/System/Library/Java/Extensions/AppleScriptEngine.jar",
     "javaRuntime": true
+  },
+  {
+    "symbolicName": "gdx-backend-gwt",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "85283b0c463bae84d1edf6d454718473df70ac2e",
+    "jarFileModificationDate": "2013-09-01T22:04:57+02:00",
+    "location": "/Users/Gecko/Documents/DevEclipse/workspace/Britannia-html/war/WEB-INF/lib/gdx-backend-gwt.jar",
+    "javaRuntime": false
   },
   {
     "symbolicName": "gdx-backend-lwjgl-natives",
@@ -325,6 +325,19 @@
     "javaRuntime": true
   },
   {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "e449f47cd92a900fe0983838c4783094dd00a47d",
+    "jarFileModificationDate": "2011-06-29T08:21:20+02:00",
+    "location": "/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Home/lib/ext/apple_provider.jar",
+    "javaRuntime": true
+  },
+  {
     "symbolicName": "org.mortbay.jetty.servlet-api-2.5",
     "version": {
       "major": 6,
@@ -345,36 +358,10 @@
       "micro": 0,
       "qualifier": ""
     },
-    "jarFileFingerprint": "e449f47cd92a900fe0983838c4783094dd00a47d",
-    "jarFileModificationDate": "2011-06-29T08:21:20+02:00",
-    "location": "/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Home/lib/ext/apple_provider.jar",
-    "javaRuntime": true
-  },
-  {
-    "symbolicName": "jre",
-    "version": {
-      "major": 1,
-      "minor": 0,
-      "micro": 0,
-      "qualifier": ""
-    },
     "jarFileFingerprint": "f00a7fd990313370a531035441a2f24b507da433",
     "jarFileModificationDate": "2012-02-04T19:07:36+01:00",
     "location": "/System/Library/Java/Extensions/MRJToolkit.jar",
     "javaRuntime": true
-  },
-  {
-    "symbolicName": "bodyeditor-loader",
-    "version": {
-      "major": -1,
-      "minor": -1,
-      "micro": -1,
-      "qualifier": ""
-    },
-    "jarFileFingerprint": "0d48919f3cab6f37da4073ed6fef9ca93fb887fc",
-    "jarFileModificationDate": "2013-09-01T22:04:58+02:00",
-    "location": "/Users/Gecko/Documents/DevEclipse/workspace/Britannia/libs/bodyeditor-loader.jar",
-    "javaRuntime": false
   },
   {
     "symbolicName": "gdx-backend-android",
@@ -387,6 +374,19 @@
     "jarFileFingerprint": "b5514ec988a15088c7ff60e0d3bf6094a6bc3b10",
     "jarFileModificationDate": "2013-09-01T22:04:57+02:00",
     "location": "/Users/Gecko/Documents/DevEclipse/workspace/Britannia-android/libs/gdx-backend-android.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "bodyeditor-loader",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "0d48919f3cab6f37da4073ed6fef9ca93fb887fc",
+    "jarFileModificationDate": "2013-09-01T22:04:58+02:00",
+    "location": "/Users/Gecko/Documents/DevEclipse/workspace/Britannia/libs/bodyeditor-loader.jar",
     "javaRuntime": false
   },
   {
@@ -475,9 +475,9 @@
       "micro": 0,
       "qualifier": ""
     },
-    "jarFileFingerprint": "d3646619557908c57aa1b78f781c7d9e1033935e",
-    "jarFileModificationDate": "2012-09-20T00:40:46+02:00",
-    "location": "/System/Library/Java/Extensions/dns_sd.jar",
+    "jarFileFingerprint": "6101cb8a5d928880c326d4835a8146cf6caa8c2a",
+    "jarFileModificationDate": "2011-05-25T21:58:38+02:00",
+    "location": "/System/Library/Java/Extensions/vecmath.jar",
     "javaRuntime": true
   },
   {
@@ -488,9 +488,9 @@
       "micro": 0,
       "qualifier": ""
     },
-    "jarFileFingerprint": "6101cb8a5d928880c326d4835a8146cf6caa8c2a",
-    "jarFileModificationDate": "2011-05-25T21:58:38+02:00",
-    "location": "/System/Library/Java/Extensions/vecmath.jar",
+    "jarFileFingerprint": "d3646619557908c57aa1b78f781c7d9e1033935e",
+    "jarFileModificationDate": "2012-09-20T00:40:46+02:00",
+    "location": "/System/Library/Java/Extensions/dns_sd.jar",
     "javaRuntime": true
   }
 ]

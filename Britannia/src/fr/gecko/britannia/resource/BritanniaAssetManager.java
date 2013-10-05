@@ -42,10 +42,7 @@ public class BritanniaAssetManager extends AssetManager {
 		
 		load("../Britannia-android/assets/small-level.tmx", TiledMap.class);
 	}
-	
-	public TextButton createTextButton(String txt) {
-		return new TextButton(txt, uiSkin);
-	}
+
 	
 
 }

@@ -21,6 +21,16 @@ public class CameraController extends Group {
 	}
 	
 	@Override
+	public float getWidth() {
+		return camera.viewportWidth;
+	}
+	
+	@Override
+	public float getHeight() {
+		return camera.viewportHeight;
+	}
+	
+	@Override
 	public void act(float dt){	
 
 		GameStage stage =  (GameStage) getStage();

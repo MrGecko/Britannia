@@ -10,6 +10,7 @@ import com.badlogic.gdx.maps.tiled.TmxMapLoader;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 
 import fr.gecko.britannia.resource.BritanniaAssetManager;
+import fr.gecko.fsm.StateManager;
 import fr.gecko.level.LevelController;
 import fr.gecko.stage.GameStage;
 
@@ -17,9 +18,7 @@ import fr.gecko.stage.GameStage;
 public class Britannia implements ApplicationListener {
 
 	private static BritanniaAssetManager assetManager;
-	private LevelController levelCtrl;
 	private GameStage stage;
-	
 	
 	public static BritanniaAssetManager getAssetManager() {
 		return assetManager;
@@ -28,17 +27,12 @@ public class Britannia implements ApplicationListener {
 
 	@Override
 	public void create () {	
-		
+				
 		assetManager = new BritanniaAssetManager();
 		assetManager.startLoading();
 		assetManager.finishLoading();
 		
 		stage = new GameStage();
-
-		levelCtrl = new LevelController(stage.getCamera(), stage.getRoot());		
-		levelCtrl.loadLevel(assetManager.get("../Britannia-android/assets/small-level.tmx", TiledMap.class));
-
-		
 	}
 
 	@Override
@@ -50,19 +44,14 @@ public class Britannia implements ApplicationListener {
 	public void render () {
 		Gdx.gl.glClear(GL10.GL_COLOR_BUFFER_BIT);
 
-		stage.act(Gdx.graphics.getDeltaTime());	        
-
-		//render tiles and game objects 
-		levelCtrl.render();
-		
-		stage.draw();
+		stage.render(Gdx.graphics.getDeltaTime());	        
 		
 		Table.drawDebug(stage); 
 	}
 
 	@Override
 	public void dispose() {
-		levelCtrl.dispose();
+		//levelCtrl.dispose();
 		stage.dispose();
 	}
 

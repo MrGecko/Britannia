@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="fr.gecko.britannia.actor.celestial.Planet"/>
-<fullyQualifiedTypeName name="fr.gecko.britannia.actor.celestial.StarSystem"/>
-<fullyQualifiedTypeName name="com.badlogic.gdx.graphics.g2d.Animation"/>
-<fullyQualifiedTypeName name="com.badlogic.gdx.graphics.Texture"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.maps.tiled.renderers.OrthogonalTiledMapRenderer"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.tools.imagepacker.TexturePacker2.Settings"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.tools.imagepacker.TexturePacker2"/>
-<fullyQualifiedTypeName name="fr.gecko.level.LevelController"/>
 <fullyQualifiedTypeName name="fr.gecko.level.map.MapController"/>
 <fullyQualifiedTypeName name="fr.gecko.camera.CameraController"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.Input"/>
@@ -32,7 +27,6 @@
 <fullyQualifiedTypeName name="com.badlogic.gdx.scenes.scene2d.Actor"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.InputAdapter"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.scenes.scene2d.InputListener"/>
-<fullyQualifiedTypeName name="fr.gecko.stage.GameStage"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.scenes.scene2d.ui.Table"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.assets.loaders.resolvers.InternalFileHandleResolver"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.maps.tiled.AtlasTmxMapLoader"/>
@@ -52,7 +46,6 @@
 <fullyQualifiedTypeName name="com.badlogic.gdx.assets.AssetManager"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.scenes.scene2d.ui.Skin"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.scenes.scene2d.ui.TextButton"/>
-<fullyQualifiedTypeName name="com.badlogic.gdx.Gdx"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.assets.loaders.TextureAtlasLoader"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.graphics.g2d.TextureAtlas"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.scenes.scene2d.ui.TextField"/>
@@ -60,4 +53,11 @@
 <fullyQualifiedTypeName name="com.badlogic.gdx.scenes.scene2d.ui.Label"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.scenes.scene2d.Group"/>
 <fullyQualifiedTypeName name="com.badlogic.gdx.graphics.OrthographicCamera"/>
+<fullyQualifiedTypeName name="java.util.Queue"/>
+<fullyQualifiedTypeName name="java.util.LinkedList"/>
+<fullyQualifiedTypeName name="fr.gecko.fsm.StateManager"/>
+<fullyQualifiedTypeName name="fr.gecko.stage.GameStage"/>
+<fullyQualifiedTypeName name="fr.gecko.level.LevelController"/>
+<fullyQualifiedTypeName name="fr.gecko.stage.state.GameLaunchState"/>
+<fullyQualifiedTypeName name="com.badlogic.gdx.Gdx"/>
 </qualifiedTypeNameHistroy>

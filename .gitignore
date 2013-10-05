@@ -20,6 +20,8 @@
 *.tar
 *.zip
 
+.metadata/*
+
 # Logs and databases #
 ######################
 *.log
@@ -35,3 +37,4 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+*.index
