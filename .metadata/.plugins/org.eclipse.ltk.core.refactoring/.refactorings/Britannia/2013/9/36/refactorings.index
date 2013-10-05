@@ -1,0 +1,7 @@
+1378149494484	Rename method 'Initialize'
+1378150336933	Rename type 'ICelestialBody'
+1378150355148	Rename method 'createCelestialBody'
+1378150373973	Rename type 'CelestialFactory'
+1378150390808	Rename field 'celestialFactory'
+1378150425525	Rename field 'celestialBodies'
+1378150461453	Move compilation unit

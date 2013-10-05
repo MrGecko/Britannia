@@ -1,0 +1,496 @@
+[
+  {
+    "symbolicName": "validation-api-1.0.0.GA-sources",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "7a561191db2203550fbfa40d534d4997624cd369",
+    "jarFileModificationDate": "2013-03-05T14:40:48+01:00",
+    "location": "/Applications/eclipse/plugins/com.google.gwt.eclipse.sdkbundle_2.5.1/gwt-2.5.1/validation-api-1.0.0.GA-sources.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "8c4128e25388c16ad4408da322b71f5b2595faa3",
+    "jarFileModificationDate": "2011-06-29T08:14:46+02:00",
+    "location": "/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Home/lib/ext/localedata.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "1ff2501cc1550270367475e5fad6a7d2ae3dc576",
+    "jarFileModificationDate": "2011-06-29T08:10:59+02:00",
+    "location": "/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Home/lib/ext/sunpkcs11.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "gdx-tools",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "012aa5184227ab834793dee455cc216004483def",
+    "jarFileModificationDate": "2013-09-01T17:10:32+02:00",
+    "location": "/Users/Gecko/Documents/lib/java/libgdx-nightly-latest/extensions/gdx-tools/gdx-tools.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "javax.validation.validation-api",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": "GA"
+    },
+    "jarFileFingerprint": "b6bd7f9d78f6fdaa3c37dae18a4bd298915f328e",
+    "jarFileModificationDate": "2013-03-05T14:40:48+01:00",
+    "location": "/Applications/eclipse/plugins/com.google.gwt.eclipse.sdkbundle_2.5.1/gwt-2.5.1/validation-api-1.0.0.GA.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "2357317d1e1f14937b3bda942c58791ee1dba581",
+    "jarFileModificationDate": "2011-06-29T08:05:14+02:00",
+    "location": "/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Home/lib/ext/sunjce_provider.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "c5d7b7bfab9b433c4b62aebbe76a564b6bcf8192",
+    "jarFileModificationDate": "2011-05-25T19:42:53+02:00",
+    "location": "/System/Library/Java/Extensions/mlibwrapper_jai.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "android",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "27195b1f36b15d98b2a5f7b29789ba60e05c2ba3",
+    "jarFileModificationDate": "2013-07-10T19:05:38+02:00",
+    "location": "/Users/Gecko/Documents/lib/java/sdk/platforms/android-18/android.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "bodyeditor-loader-sources",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "d97f1cf45de312e6b0ebe3ca3ac323831facb97f",
+    "jarFileModificationDate": "2013-09-01T22:04:58+02:00",
+    "location": "/Users/Gecko/Documents/DevEclipse/workspace/Britannia/libs/bodyeditor-loader-sources.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "gdx-backend-lwjgl",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "32dce7122f7f0417dd6e07532b1905927eacf43a",
+    "jarFileModificationDate": "2013-09-01T22:04:58+02:00",
+    "location": "/Users/Gecko/Documents/DevEclipse/workspace/Britannia-desktop/libs/gdx-backend-lwjgl.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "b1b08f2e58bf85085c0531f268821a31febf07c0",
+    "jarFileModificationDate": "2011-05-25T21:58:38+02:00",
+    "location": "/System/Library/Java/Extensions/j3dcore.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "gdx-backend-gwt",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "85283b0c463bae84d1edf6d454718473df70ac2e",
+    "jarFileModificationDate": "2013-09-01T22:04:57+02:00",
+    "location": "/Users/Gecko/Documents/DevEclipse/workspace/Britannia-html/war/WEB-INF/lib/gdx-backend-gwt.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a40cd57d7fd57a466f5f7bf780aa697ebba01adb",
+    "jarFileModificationDate": "2011-05-25T22:22:37+02:00",
+    "location": "/System/Library/Java/Extensions/AppleScriptEngine.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "gdx-backend-lwjgl-natives",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "c539f2c7d14189f5dc57306727587d1184e17773",
+    "jarFileModificationDate": "2013-09-01T22:04:58+02:00",
+    "location": "/Users/Gecko/Documents/DevEclipse/workspace/Britannia-desktop/libs/gdx-backend-lwjgl-natives.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "04c45ed9f14787b5975e773547574297a9f223be",
+    "jarFileModificationDate": "2011-06-29T08:21:14+02:00",
+    "location": "/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/ui.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "930a67bfd95bdc974bcdd86514ad1003c0d5a944",
+    "jarFileModificationDate": "2011-06-29T08:19:05+02:00",
+    "location": "/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/classes.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "gdx",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a77e2d185299ef02b5d8510b7325e5b5e2e7ac16",
+    "jarFileModificationDate": "2013-09-01T22:04:58+02:00",
+    "location": "/Users/Gecko/Documents/DevEclipse/workspace/Britannia/libs/gdx.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "gdx-natives",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "ae9788fd9b84431962140b5a5bf7d62b1c5bb290",
+    "jarFileModificationDate": "2013-09-01T22:04:58+02:00",
+    "location": "/Users/Gecko/Documents/DevEclipse/workspace/Britannia-desktop/libs/gdx-natives.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "gdx-backend-android-sources",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "deda07822a5028642b3b7dd593299b70556a4452",
+    "jarFileModificationDate": "2013-09-01T22:04:58+02:00",
+    "location": "/Users/Gecko/Documents/DevEclipse/workspace/Britannia-android/libs/gdx-backend-android-sources.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "26631b4153c667209765001889c6de4055b02f4f",
+    "jarFileModificationDate": "2013-07-22T06:39:29+02:00",
+    "location": "/System/Library/Java/Extensions/QTJava.zip",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "dd76e2b0e67da53e0bdecfbd7e29e0044ccd42cb",
+    "jarFileModificationDate": "2011-07-22T22:40:49+02:00",
+    "location": "/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Home/lib/ext/dnsns.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "4331cbc6d596f7ef54f0af77f16b5e3643b164bc",
+    "jarFileModificationDate": "2011-05-25T21:58:38+02:00",
+    "location": "/System/Library/Java/Extensions/j3dutils.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "gdx-backend-gwt-sources",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "6397a9e7e0c5bb1233d3368ed3cd0f00a43ee573",
+    "jarFileModificationDate": "2013-09-01T22:04:58+02:00",
+    "location": "/Users/Gecko/Documents/DevEclipse/workspace/Britannia-html/war/WEB-INF/lib/gdx-backend-gwt-sources.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "gwt-user",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "637c3f341bb3dc410d1d6253db9c66d536e4f0fa",
+    "jarFileModificationDate": "2013-03-05T17:37:08+01:00",
+    "location": "/Applications/eclipse/plugins/com.google.gwt.eclipse.sdkbundle_2.5.1/gwt-2.5.1/gwt-user.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "ddf73e7480cdcdb15137b659384f44140d35bf2a",
+    "jarFileModificationDate": "2011-06-29T08:05:14+02:00",
+    "location": "/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/jsse.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.mortbay.jetty.servlet-api-2.5",
+    "version": {
+      "major": 6,
+      "minor": 1,
+      "micro": 11,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "9b0995efe9b037a0f2226b6ceba6617066e02528",
+    "jarFileModificationDate": "2013-03-05T17:36:20+01:00",
+    "location": "/Applications/eclipse/plugins/com.google.gwt.eclipse.sdkbundle_2.5.1/gwt-2.5.1/gwt-dev.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "e449f47cd92a900fe0983838c4783094dd00a47d",
+    "jarFileModificationDate": "2011-06-29T08:21:20+02:00",
+    "location": "/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Home/lib/ext/apple_provider.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f00a7fd990313370a531035441a2f24b507da433",
+    "jarFileModificationDate": "2012-02-04T19:07:36+01:00",
+    "location": "/System/Library/Java/Extensions/MRJToolkit.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "bodyeditor-loader",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "0d48919f3cab6f37da4073ed6fef9ca93fb887fc",
+    "jarFileModificationDate": "2013-09-01T22:04:58+02:00",
+    "location": "/Users/Gecko/Documents/DevEclipse/workspace/Britannia/libs/bodyeditor-loader.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "gdx-backend-android",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "b5514ec988a15088c7ff60e0d3bf6094a6bc3b10",
+    "jarFileModificationDate": "2013-09-01T22:04:57+02:00",
+    "location": "/Users/Gecko/Documents/DevEclipse/workspace/Britannia-android/libs/gdx-backend-android.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "bccc295b44175e060b5de5fd519a27adaaf15f36",
+    "jarFileModificationDate": "2011-05-25T19:43:15+02:00",
+    "location": "/System/Library/Java/Extensions/jai_codec.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "883ce9d1241a70464db927aa1f0a78044c4db929",
+    "jarFileModificationDate": "2011-05-25T21:58:38+02:00",
+    "location": "/System/Library/Java/Extensions/j3daudio.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "8e5e585fb8f4c80aaab36da953892ba57e2e2523",
+    "jarFileModificationDate": "2011-05-25T19:43:15+02:00",
+    "location": "/System/Library/Java/Extensions/jai_core.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "0291c376892d71518905b96b156834389a0da26c",
+    "jarFileModificationDate": "2011-06-29T08:05:14+02:00",
+    "location": "/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/jce.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "gdx-sources",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "85a9e17f4f73fbf73cb90b7d314a60866872abf0",
+    "jarFileModificationDate": "2013-09-01T22:04:58+02:00",
+    "location": "/Users/Gecko/Documents/DevEclipse/workspace/Britannia/libs/gdx-sources.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "1277d00329bfc951f066319fe4f0e3432ab580ae",
+    "jarFileModificationDate": "2011-06-29T08:14:55+02:00",
+    "location": "/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/charsets.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "d3646619557908c57aa1b78f781c7d9e1033935e",
+    "jarFileModificationDate": "2012-09-20T00:40:46+02:00",
+    "location": "/System/Library/Java/Extensions/dns_sd.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "6101cb8a5d928880c326d4835a8146cf6caa8c2a",
+    "jarFileModificationDate": "2011-05-25T21:58:38+02:00",
+    "location": "/System/Library/Java/Extensions/vecmath.jar",
+    "javaRuntime": true
+  }
+]

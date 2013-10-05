@@ -1,0 +1,16 @@
+d::0:application/unknown
+b:.DS_Store:6148:application/unknown
+d:data:0:application/unknown
+b:data/.DS_Store:6148:application/unknown
+i:data/chipset.png:5291:image/png
+d:data/packed:0:application/unknown
+b:data/packed/.DS_Store:6148:application/unknown
+b:data/palace.tmx:231047:application/unknown
+b:data/small-level.tmx:4893:application/unknown
+d:data/tileset:0:application/unknown
+i:data/tileset/chipset.png:5291:image/png
+b:data/tileset/donjon.tsx:180:application/unknown
+t:com/badlogic/gdx/graphics/g3d/shaders/default.fragment.glsl:3032:application/unknown
+t:com/badlogic/gdx/graphics/g3d/shaders/default.vertex.glsl:7973:application/unknown
+t:com/badlogic/gdx/utils/arial-15.fnt:21743:application/unknown
+i:com/badlogic/gdx/utils/arial-15.png:21814:image/png

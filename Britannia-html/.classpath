@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" combineaccessrules="false" path="/Britannia"/>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+	<classpathentry kind="con" path="com.google.gwt.eclipse.core.GWT_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/Britannia/libs/gdx.jar" sourcepath="/Britannia/libs/gdx-sources.jar"/>
+	<classpathentry kind="lib" path="/Britannia/libs/gdx-sources.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/gdx-backend-gwt.jar" sourcepath="war/WEB-INF/lib/gdx-backend-gwt-sources.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/gdx-backend-gwt-sources.jar"/>
+	<classpathentry kind="lib" path="/Britannia/libs/bodyeditor-loader.jar" sourcepath="/Britannia/libs/bodyeditor-loader-sources.jar"/>
+	<classpathentry kind="lib" path="/Britannia/libs/bodyeditor-loader-sources.jar"/>
+</classpath>

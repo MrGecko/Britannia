@@ -1,0 +1,47 @@
+{
+  "C:\\Users\\MrGecko\\Documents\\Dev\\workspace\\SciFiBoard\\libs\\gdx.jar": {
+    "location": "C:\\Users\\MrGecko\\Documents\\Dev\\workspace\\SciFiBoard\\libs\\gdx.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027C:\\Users\\MrGecko\\Documents\\Dev\\workspace\\SciFiBoard\\libs\\gdx.jar\u0027. Neither fingerprint \u00274770009f6627fd171917f1b1bf7670c5e52fbff1\u0027 nor symbolic name \u0027gdx\u0027 are known."
+  },
+  "C:\\Users\\MrGecko\\git\\SciFiBoard\\SciFiBoard\\SciFiBoard\\libs\\gdx.jar": {
+    "location": "C:\\Users\\MrGecko\\git\\SciFiBoard\\SciFiBoard\\SciFiBoard\\libs\\gdx.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027C:\\Users\\MrGecko\\git\\SciFiBoard\\SciFiBoard\\SciFiBoard\\libs\\gdx.jar\u0027. Neither fingerprint \u00274770009f6627fd171917f1b1bf7670c5e52fbff1\u0027 nor symbolic name \u0027gdx\u0027 are known."
+  },
+  "C:\\Program Files\\Java\\jre6\\lib\\rt.jar": {
+    "coordinate": "jre:jre:zip:call:1.0.0",
+    "location": "C:\\Program Files\\Java\\jre6\\lib\\rt.jar",
+    "status": "RESOLVED"
+  },
+  "C:\\Users\\MrGecko\\git\\SciFiBoard\\SciFiBoard\\SciFiBoard\\src": {
+    "location": "C:\\Users\\MrGecko\\git\\SciFiBoard\\SciFiBoard\\SciFiBoard\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Users\\MrGecko\\git\\SciFiBoard\\SciFiBoard\\SciFiBoard\\src\u0027. Skipped."
+  },
+  "/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/classes.jar": {
+    "coordinate": "jre:jre:zip:call:1.0.0",
+    "location": "/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/classes.jar",
+    "status": "RESOLVED"
+  },
+  "/Users/Gecko/Documents/DevEclipse/workspace/Britannia/src": {
+    "location": "/Users/Gecko/Documents/DevEclipse/workspace/Britannia/src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027/Users/Gecko/Documents/DevEclipse/workspace/Britannia/src\u0027. Skipped."
+  },
+  "/Users/Gecko/Documents/DevEclipse/workspace/Britannia/libs/gdx.jar": {
+    "location": "/Users/Gecko/Documents/DevEclipse/workspace/Britannia/libs/gdx.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027/Users/Gecko/Documents/DevEclipse/workspace/Britannia/libs/gdx.jar\u0027. Neither fingerprint \u0027a77e2d185299ef02b5d8510b7325e5b5e2e7ac16\u0027 nor symbolic name \u0027gdx\u0027 are known."
+  },
+  "/Users/Gecko/Documents/DevEclipse/workspace/Britannia-html/war/WEB-INF/lib/gdx-backend-gwt.jar": {
+    "location": "/Users/Gecko/Documents/DevEclipse/workspace/Britannia-html/war/WEB-INF/lib/gdx-backend-gwt.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027/Users/Gecko/Documents/DevEclipse/workspace/Britannia-html/war/WEB-INF/lib/gdx-backend-gwt.jar\u0027. Neither fingerprint \u002785283b0c463bae84d1edf6d454718473df70ac2e\u0027 nor symbolic name \u0027gdx-backend-gwt\u0027 are known."
+  },
+  "/Users/Gecko/Documents/lib/java/libgdx-nightly-latest/extensions/gdx-tools/gdx-tools.jar": {
+    "location": "/Users/Gecko/Documents/lib/java/libgdx-nightly-latest/extensions/gdx-tools/gdx-tools.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027/Users/Gecko/Documents/lib/java/libgdx-nightly-latest/extensions/gdx-tools/gdx-tools.jar\u0027. Neither fingerprint \u0027012aa5184227ab834793dee455cc216004483def\u0027 nor symbolic name \u0027gdx-tools\u0027 are known."
+  }
+}

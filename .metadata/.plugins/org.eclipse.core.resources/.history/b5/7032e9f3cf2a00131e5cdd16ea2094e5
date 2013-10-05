@@ -1,0 +1,50 @@
+package fr.gecko.britannia.resource;
+
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.assets.AssetManager;
+import com.badlogic.gdx.assets.loaders.resolvers.InternalFileHandleResolver;
+import com.badlogic.gdx.graphics.g2d.BitmapFont;
+import com.badlogic.gdx.graphics.g2d.NinePatch;
+import com.badlogic.gdx.graphics.g2d.TextureAtlas;
+import com.badlogic.gdx.maps.tiled.TiledMap;
+import com.badlogic.gdx.maps.tiled.TmxMapLoader;
+import com.badlogic.gdx.scenes.scene2d.ui.Skin;
+import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
+import com.badlogic.gdx.tools.imagepacker.TexturePacker2;
+import com.badlogic.gdx.tools.imagepacker.TexturePacker2.Settings;
+
+public class BritanniaAssetManager extends AssetManager {
+	
+	private Skin uiSkin;
+
+	public BritanniaAssetManager() {		
+		Settings settings = new Settings();
+		settings.maxWidth = 512;
+		settings.maxHeight = 512;
+		settings.paddingX = 0;
+		settings.paddingY = 0;
+		settings.useIndexes = true;
+		
+		//TexturePacker2.process(settings, "assets/atlas/ui", "assets/atlas/ui/packed", "ui");
+	}
+
+	public void startLoadingAssets() {
+		setLoader(TiledMap.class, new TmxMapLoader(new InternalFileHandleResolver()));
+		
+		load("assets/atlas/ui/packed/uiskin.atlas", TextureAtlas.class);
+		
+		//uiSkin = new Skin(Gdx.files.internal("assets/atlas/ui/packed/uiskin.json"));
+		
+		load("assets/small-level.tmx", TiledMap.class);
+	}
+	
+	public void finishLoadingAssets() {
+		finishLoading();	
+	}
+	
+	public TextButton createTextButton(String txt) {
+		TextButton button = new TextButton(txt, uiSkin);
+		return button;
+	}
+
+}

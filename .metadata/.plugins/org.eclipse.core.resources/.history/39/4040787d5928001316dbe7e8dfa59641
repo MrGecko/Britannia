@@ -1,0 +1,58 @@
+package fr.gecko.level.map;
+
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.graphics.Camera;
+import com.badlogic.gdx.graphics.OrthographicCamera;
+import com.badlogic.gdx.maps.tiled.TiledMap;
+import com.badlogic.gdx.maps.tiled.TmxMapLoader;
+import com.badlogic.gdx.maps.tiled.renderers.OrthogonalTiledMapRenderer;
+import com.badlogic.gdx.scenes.scene2d.Group;
+
+import fr.gecko.level.map.renderer.OrthogonalActorTiledMapRenderer;
+
+public class MapController {
+	
+	private TiledMap tiledMap;
+	private TmxMapLoader tmxMapLoader;
+	private OrthogonalTiledMapRenderer tiledMapRenderer;
+	//private Stage stage;
+	private static float unitScale = 1f;
+	
+	private Camera camera;
+	private Group actorGroup;
+	
+	public MapController(Camera camera, Group actorGroup) {
+		this.actorGroup = actorGroup;
+		this.camera = camera;
+		this.tmxMapLoader = new TmxMapLoader();
+	}
+	
+	public void render() {
+        tiledMapRenderer.setView((OrthographicCamera) camera);
+		//render each tile from each visible layer
+		tiledMapRenderer.render();
+	}
+
+	public TiledMap getTiledMap() {
+		return tiledMap;
+	}
+	
+	public void loadTiledMap(TiledMap map) {
+        tiledMap = map;
+        tiledMapRenderer = new OrthogonalActorTiledMapRenderer(getActorGroup(), tiledMap, 1/unitScale);
+        
+		Gdx.gl.glClearColor(0.14f, 0.14f, 0.14f, 1f);
+	}
+	
+	public void dispose() {
+		if (tiledMap != null) {
+			tiledMap.dispose();
+		}
+	}
+
+	public Group getActorGroup() {
+		return actorGroup;
+	}
+
+	
+}

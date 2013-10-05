@@ -1,0 +1,27 @@
+package fr.gecko.britannia;
+
+import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
+import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
+import com.badlogic.gdx.tools.imagepacker.TexturePacker2;
+import com.badlogic.gdx.tools.imagepacker.TexturePacker2.Settings;
+
+public class Main {
+	public static void main(String[] args) {
+		LwjglApplicationConfiguration cfg = new LwjglApplicationConfiguration();
+		cfg.title = "Britannia";
+		cfg.useGL20 = true;
+		cfg.width = 960;
+		cfg.height = 640;
+		
+		Settings settings = new Settings();
+		settings.maxWidth = 512;
+		settings.maxHeight = 512;
+		settings.paddingX = 0;
+		settings.paddingY = 0;
+		settings.useIndexes(true);
+		
+		//TexturePacker2.process(settings, "../Britannia-android/assets/", "../Britannia-android/assets/packed", "Britannia");
+		
+		new LwjglApplication(new Britannia(), cfg);
+	}
+}

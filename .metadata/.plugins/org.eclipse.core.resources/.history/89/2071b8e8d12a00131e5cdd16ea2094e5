@@ -1,0 +1,33 @@
+package fr.gecko.britannia.resource;
+
+import com.badlogic.gdx.assets.AssetManager;
+import com.badlogic.gdx.assets.loaders.resolvers.InternalFileHandleResolver;
+import com.badlogic.gdx.maps.tiled.TiledMap;
+import com.badlogic.gdx.maps.tiled.TmxMapLoader;
+import com.badlogic.gdx.tools.imagepacker.TexturePacker2;
+import com.badlogic.gdx.tools.imagepacker.TexturePacker2.Settings;
+
+public class BritanniaAssetManager extends AssetManager {
+
+	public BritanniaAssetManager() {		
+		Settings settings = new Settings();
+		settings.maxWidth = 512;
+		settings.maxHeight = 512;
+		settings.paddingX = 0;
+		settings.paddingY = 0;
+		settings.useIndexes = true;
+		
+		//TexturePacker2.process(settings, "../Britannia-android/assets/atlas", "../Britannia-android/assets/atlas/packed", "resource");
+	}
+
+	public void startLoadingAssets() {
+		setLoader(TiledMap.class, new TmxMapLoader(new InternalFileHandleResolver()));
+		
+		load("small-level.tmx", TiledMap.class);
+	}
+	
+	public void finishLoadingAssets() {
+		finishLoading();	
+	}
+
+}
