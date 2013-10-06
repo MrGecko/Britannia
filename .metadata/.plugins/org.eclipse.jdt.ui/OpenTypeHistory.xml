@@ -7,6 +7,6 @@
 <typeInfo handle="=Britannia/libs\/gdx.jar&lt;com.badlogic.gdx.maps.tiled.renderers(OrthogonalTiledMapRenderer.class[OrthogonalTiledMapRenderer" modifiers="33" timestamp="1378065898000"/>
 <typeInfo handle="=Britannia/libs\/gdx.jar&lt;com.badlogic.gdx.scenes.scene2d(Stage.class[Stage" modifiers="33" timestamp="1378065898000"/>
 <typeInfo handle="=Britannia/libs\/gdx.jar&lt;com.badlogic.gdx.assets(AssetManager.class[AssetManager" modifiers="33" timestamp="1378065898000"/>
-<typeInfo handle="=Britannia/src&lt;fr.gecko.fsm{GameState.java[GameState" modifiers="1" timestamp="1380978236000"/>
-<typeInfo handle="=Britannia/src&lt;fr.gecko.stage.state{GameStageState.java[GameStageState" modifiers="1" timestamp="1380979681000"/>
+<typeInfo handle="=Britannia/src&lt;fr.gecko.fsm{GameState.java[GameState" modifiers="1" timestamp="1380980658000"/>
+<typeInfo handle="=Britannia/src&lt;fr.gecko.stage.state{GameStageState.java[GameStageState" modifiers="1" timestamp="1380980517000"/>
 </typeInfoHistroy>

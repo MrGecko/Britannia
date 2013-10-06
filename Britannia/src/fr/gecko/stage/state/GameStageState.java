@@ -7,11 +7,9 @@ import fr.gecko.stage.GameStage;
 public class GameStageState extends GameState {
 	
 	protected GameStage stage;
-	protected LevelController levelCtrl;
 	
 	public GameStageState(GameStage stage) {
 		this.stage = stage;
-		this.levelCtrl = stage.getLevelController();
 	}
 	
 	@Override
@@ -21,8 +19,18 @@ public class GameStageState extends GameState {
 	
 	@Override
 	public void draw() {
-		levelCtrl.render();
+		LevelController lvlCtrl = stage.getLevelController();
+		if (lvlCtrl != null) {
+			lvlCtrl.render();
+		}
 		stage.draw();
+	}
+	
+	public void dispose() {
+		LevelController lvlCtrl = stage.getLevelController();
+		if (lvlCtrl != null) {
+			lvlCtrl.dispose();
+		}
 	}
 	
 

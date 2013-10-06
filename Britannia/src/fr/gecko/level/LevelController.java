@@ -10,11 +10,9 @@ public class LevelController {
 
 	private GameLevel currentLevel;
 	private MapController mapCtrl;
-	//private Stage stage;
 	private Group actorGroup;
 
 	public LevelController(Camera camera, Group rootGroup) {
-		//this.stage = stage;
 		actorGroup = new Group();
 		actorGroup.setName("game objects");
 		rootGroup.addActor(actorGroup);

@@ -1,2 +1,11 @@
 1380651136957	Rename type 'AssetManager'
 1380652563793	Rename method 'initializeAssets'
+1381063730364	Rename type 'GameLaunchState'
+1381063970603	Delete element
+1381063994735	Delete element
+1381063999455	Delete element
+1381064003618	Delete element
+1381064059128	Copy package
+1381064069415	Delete element
+1381071095143	Encapsulate field 'uiAtlas'
+1381082051820	Infer generic type arguments

@@ -20,7 +20,7 @@
 *.tar
 *.zip
 
-.metadata/*
+.metadata/
 
 # Logs and databases #
 ######################

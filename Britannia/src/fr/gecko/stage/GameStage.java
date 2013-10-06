@@ -3,17 +3,13 @@ package fr.gecko.stage;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.maps.tiled.TiledMap;
 import com.badlogic.gdx.scenes.scene2d.Stage;
-import com.badlogic.gdx.scenes.scene2d.ui.Label;
-import com.badlogic.gdx.scenes.scene2d.ui.Table;
-import com.badlogic.gdx.scenes.scene2d.ui.TextField;
 import com.badlogic.gdx.utils.IntIntMap;
 
 import fr.gecko.britannia.Britannia;
-import fr.gecko.britannia.resource.BritanniaAssetManager;
-import fr.gecko.camera.CameraController;
+import fr.gecko.resource.BritanniaAssetManager;
 import fr.gecko.fsm.StateManager;
 import fr.gecko.level.LevelController;
-import fr.gecko.stage.state.GameLaunchState;
+import fr.gecko.stage.state.GameMainState;
 
 public class GameStage extends Stage {
 	
@@ -58,8 +54,7 @@ public class GameStage extends Stage {
 		levelCtrl = new LevelController(getCamera(), getRoot());		
 		levelCtrl.loadLevel(assetManager.get("../Britannia-android/assets/small-level.tmx", TiledMap.class));
 				
-		fsm.push(new GameLaunchState(this));
-		
+		fsm.push(new GameMainState(this));
 	}
 
 	
@@ -73,7 +68,6 @@ public class GameStage extends Stage {
 		while (!fsm.isEmpty()) {
 			fsm.pop();
 		}
-		levelCtrl.dispose();
 		super.dispose();
 	}
 

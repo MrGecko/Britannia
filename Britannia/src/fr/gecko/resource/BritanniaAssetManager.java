@@ -1,20 +1,17 @@
-package fr.gecko.britannia.resource;
+package fr.gecko.resource;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.assets.AssetManager;
-import com.badlogic.gdx.assets.loaders.TextureAtlasLoader;
-import com.badlogic.gdx.assets.loaders.resolvers.InternalFileHandleResolver;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.maps.tiled.TiledMap;
 import com.badlogic.gdx.maps.tiled.TmxMapLoader;
 import com.badlogic.gdx.scenes.scene2d.ui.Skin;
-import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
-import com.badlogic.gdx.tools.imagepacker.TexturePacker2;
 import com.badlogic.gdx.tools.imagepacker.TexturePacker2.Settings;
 
 public class BritanniaAssetManager extends AssetManager {
 	
 	private Skin uiSkin;
+	private TextureAtlas uiAtlas;
 
 	
 	public Skin getUiSkin() {
@@ -37,10 +34,16 @@ public class BritanniaAssetManager extends AssetManager {
 		
 		load("../Britannia-android/assets/ui/uiskin.atlas", TextureAtlas.class);
 		
+		uiAtlas = new TextureAtlas("../Britannia-android/assets/ui/uiskin.atlas");
+		
 		uiSkin = new Skin(Gdx.files.internal("../Britannia-android/assets/ui/uiskin.json"));
-		uiSkin.addRegions(new TextureAtlas("../Britannia-android/assets/ui/uiskin.atlas"));
+		uiSkin.addRegions(uiAtlas);
 		
 		load("../Britannia-android/assets/small-level.tmx", TiledMap.class);
+	}
+
+	public TextureAtlas getUiAtlas() {
+		return uiAtlas;
 	}
 
 	

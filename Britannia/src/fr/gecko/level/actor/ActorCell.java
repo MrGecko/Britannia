@@ -1,10 +1,16 @@
 package fr.gecko.level.actor;
 
+import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.maps.tiled.TiledMapTileLayer;
 import com.badlogic.gdx.scenes.scene2d.Actor;
+import com.badlogic.gdx.scenes.scene2d.InputEvent;
+import com.badlogic.gdx.scenes.scene2d.InputListener;
+import com.badlogic.gdx.scenes.scene2d.ui.Label;
+
+import fr.gecko.stage.ui.InfoTable;
 
 public class ActorCell extends Actor {
 
@@ -12,10 +18,30 @@ public class ActorCell extends Actor {
 	private int cellX;
 	private int cellY;
 
-	public ActorCell(TiledMapTileLayer layer, int x, int y) {
+	public ActorCell(final TiledMapTileLayer layer, int x, int y) {
 		this.layer = layer;
+		setWidth(layer.getTileWidth());
+		setHeight(layer.getTileHeight());
+		
 		setCellX(x);
 		setCellY(y);
+				
+		addListener(new InputListener(){
+			
+			public boolean touchDown (InputEvent event, float x, float y, int pointer, int button) {
+				InfoTable infoTable = (InfoTable) event.getStage().getRoot().findActor("infoTable");
+				
+				ActorCell cell = (ActorCell) event.getTarget();
+				
+				if (infoTable != null) {
+					infoTable.setCellImage(cell.getRegion());
+					infoTable.setCellName(cell.getName());
+				}
+				
+				return true;
+			}
+
+		});
 	}
 
     public void draw (SpriteBatch batch, float parentAlpha) {
@@ -31,26 +57,21 @@ public class ActorCell extends Actor {
 	public int getCellY() {
 		return cellY;
 	}
-
-
+	
 
 	public void setCellY(int cellY) {
 		this.cellY = cellY;
-		this.setY(cellY * layer.getTileHeight());
+		this.setY(cellY * getHeight());
 	}
-
-
 
 	public int getCellX() {
 		return cellX;
 	}
 
 
-
 	public void setCellX(int cellX) {
 		this.cellX = cellX;
-		this.setX(cellX * layer.getTileWidth());
-
+		this.setX(cellX * getWidth());
 	}
 	
 }

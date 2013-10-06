@@ -2,16 +2,10 @@ package fr.gecko.britannia;
 
 import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.assets.AssetManager;
-import com.badlogic.gdx.assets.loaders.resolvers.InternalFileHandleResolver;
 import com.badlogic.gdx.graphics.GL10;
-import com.badlogic.gdx.maps.tiled.TiledMap;
-import com.badlogic.gdx.maps.tiled.TmxMapLoader;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 
-import fr.gecko.britannia.resource.BritanniaAssetManager;
-import fr.gecko.fsm.StateManager;
-import fr.gecko.level.LevelController;
+import fr.gecko.resource.BritanniaAssetManager;
 import fr.gecko.stage.GameStage;
 
 
